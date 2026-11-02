@@ -1,11 +1,11 @@
-# datasim_jd369
+# regression_vs_traffic_diff_coverage_map
 
 **映射数据合成与仿真工程师·回归集与线上样本的差分的覆盖情况并找出未覆盖的部分。**
 
-`datasim_jd369` —— 把候选项映射到类别上，算出数据合成与仿真工程师·回归集与线上样本的差分的覆盖率并列出未覆盖的类别
+`regression_vs_traffic_diff_coverage_map` —— 把候选项映射到类别上，算出数据合成与仿真工程师·回归集与线上样本的差分的覆盖率并列出未覆盖的类别
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`datasim_jd369.py` 拷走就能用
+- 单文件，`regression_vs_traffic_diff_coverage_map.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install baishuai11-datasim_jd369
+pip install baishuai11-regression_vs_traffic_diff_coverage_map
 ```
 
 装完直接用命令名调用：
 
 ```bash
-datasim_jd369 --help
+regression_vs_traffic_diff_coverage_map --help
 ```
 
-也可以不用安装，直接把 `datasim_jd369.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `regression_vs_traffic_diff_coverage_map.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ datasim_jd369 --help
 ## 用法
 
 ```bash
-python datasim_jd369.py --file input.txt
-python datasim_jd369.py --text "示例内容"
-python datasim_jd369.py --file input.txt --json
+python regression_vs_traffic_diff_coverage_map.py --file input.txt
+python regression_vs_traffic_diff_coverage_map.py --text "示例内容"
+python regression_vs_traffic_diff_coverage_map.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python datasim_jd369.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_datasim_jd369.py
+python test_regression_vs_traffic_diff_coverage_map.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_datasim_jd369.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/baishuai11/datasim_jd369>
+- GitHub 仓库：<https://github.com/baishuai11/regression_vs_traffic_diff_coverage_map>
 
 ---
 
@@ -79,7 +79,7 @@ python test_datasim_jd369.py
 baishuai11 做数据合成与仿真工程师·回归集与线上样本的差分相关的问题，方向对标零一万物的负责人数据合成与仿真工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://baishuai11.github.io>
-- 仓库：<https://github.com/baishuai11/datasim_jd369>
+- 仓库：<https://github.com/baishuai11/regression_vs_traffic_diff_coverage_map>
 
 ## 许可
 

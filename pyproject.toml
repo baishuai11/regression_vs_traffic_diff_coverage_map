@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "baishuai11-datasim_jd369"
+name = "baishuai11-regression_vs_traffic_diff_coverage_map"
 version = "0.1.0"
 description = "把候选项映射到类别上，算出数据合成与仿真工程师·回归集与线上样本的差分的覆盖率并列出未覆盖的类别"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://baishuai11.github.io"
-Repository = "https://github.com/baishuai11/datasim_jd369"
-Issues = "https://github.com/baishuai11/datasim_jd369/issues"
+Repository = "https://github.com/baishuai11/regression_vs_traffic_diff_coverage_map"
+Issues = "https://github.com/baishuai11/regression_vs_traffic_diff_coverage_map/issues"
 
 [project.scripts]
-datasim_jd369 = "datasim_jd369:main"
+regression_vs_traffic_diff_coverage_map = "regression_vs_traffic_diff_coverage_map:main"
 
 [tool.setuptools]
-py-modules = ["datasim_jd369"]
+py-modules = ["regression_vs_traffic_diff_coverage_map"]
